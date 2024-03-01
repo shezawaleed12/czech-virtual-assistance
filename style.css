@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+body{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.sec{
+    background: linear-gradient(
+        to bottom right,
+        rgba(155, 211, 247, 1),
+     rgba(249, 253, 255, 1)
+
+    ) ;
+    height: 500px;
+    width: 100%;
+    }   
+.navbar{
+    background-color: transparent;
+}  
+.navbar img {
+    height: 50px;
+    width: 250px;
+}
+.col-7 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+   
+}
+.fs-1 span{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: larger;
+    font-variation-settings:
+      "wdth" 100;
+ 
+}
+.uderline{
+    position: relative;
+}
+.underline::after
+{
+    content: '';
+    position: absolute;
+    width: 40%;
+    
+    border-top: solid 3px red;
+    left: 250px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+
