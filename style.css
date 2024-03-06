@@ -11,7 +11,7 @@
       "wdth" 100;
   }
 body{
-    width: 100%;
+    
     height: 100%;
    
     
@@ -29,6 +29,7 @@ body{
     }   
 .navbar{
     background-color: transparent;
+   
 }  
 .navbar img {
     height: 50px;
@@ -39,7 +40,7 @@ body{
     font-size: 3rem;
    
 }
-.fs-1 span{
+.fs-3 span{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -51,17 +52,39 @@ body{
 }
 .uderline{
     position: relative;
+    
 }
 .underline::after
 {
     content: '';
     position: absolute;
     width: 40%;
-    
-    border-top: solid 3px red;
-    left: 250px;
-    border-radius: 50%;
-    height: 40px;
+    background-image: url('Vector\ 20.png');
+    left: 270px;
+    height: 10px;
 }
+.font{
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      font-size: 14px;
+      line-height: 14px;
+      width: 550px;
+      color: rgba(24, 2, 13, 1);
+}
+.col-4{
+    right: 30px;
+}
+.nn{
+    background-color: rgba(24, 2, 13, 1);
+}
+
+.nn ul li {
+    margin-left: 40px;
+}
+
 
 
